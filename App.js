@@ -112,16 +112,15 @@ function SettingsScreen() {
   );
 }
 
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'lightblue',
+    backgroundColor: 'lightgray',
     justifyContent: 'center',
   },
   container1: {
     flex: 1,
-    backgroundColor: 'lightblue',
+    backgroundColor: 'lightgray',
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -167,7 +166,7 @@ const styles = StyleSheet.create({
   },
   outputData: {
     alignItems: 'center',
-    backgroundColor: 'lightgreen',
+    backgroundColor: 'darkgray',
     padding: 20,
     borderRadius: 10,
     margin: 10,
